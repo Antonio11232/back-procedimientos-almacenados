@@ -46,6 +46,7 @@ BEGIN
 DELETE FROM Person WHERE id = person_id;
 END$$
 
+
 -- CALL verPersonas();
 -- CALL buscarPersona(3);
 -- CALL insertarPersona("Santiago", "Perez");
