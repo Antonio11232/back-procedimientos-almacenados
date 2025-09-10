@@ -12,7 +12,7 @@
 	<artifactId>procedimientos-almacenados</artifactId>
 	<version>1.0.1</version>
 	<name>procedimientos-almacenados</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Microservicio aplicando procedimientos almacenados.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -38,6 +38,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
 		<dependency>
